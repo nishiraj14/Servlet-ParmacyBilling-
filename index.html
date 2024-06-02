@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form  action="insertPharma" method="post">
+            <table border="1" bgcolor="#A9F5D0">
+                <tr>
+                    <th>M id : </th>
+                    <td><input type="number" name="mid1" value="0"></td>
+                    <td><input type="number" name="mid2" value="0"></td>
+                    <td><input type="number" name="mid3" value="0"></td>
+                </tr>
+                 <tr>
+                <th>Medicine Name:</th>
+                <td><input type="checkbox" name="Medicine1" value="Dolo" />Dolo</td>
+                <td><input type="checkbox" name="Medicine2" value="Cipla" />Cipla</td>
+                <td><input type="checkbox" name="Medicine3" value="Sinarest" />Sinarest</td>                
+            </tr>
+                 <tr>
+                    <th>Enter Rate : </th>
+                    <td><input type="number" name="rate1" value="0"></td>
+                    <td><input type="number" name="rate2" value="0"></td>
+                     <td><input type="number" name="rate3" value="0"></td>
+                </tr>
+                 <tr>
+                    <th>Enter Quantity : </th>
+                    <td><input type="number" name="qty1" value="0"></td>
+                    <td><input type="number" name="qty2" value="0"></td>
+                    <td><input type="number" name="qty3" value="0"></td>
+                </tr>
+                 <tr>
+                <th>Discount:</th>
+                <td><input type="radio" name="r1" value="5">5%
+                      <input type="radio" name="r1" value="10">10%
+                      <input type="radio" name="r1" value="15">15%
+                </td>
+                <td><input type="radio" name="r2" value="5">5%
+                      <input type="radio" name="r2" value="10">10%
+                      <input type="radio" name="r2" value="15">15%
+                </td>
+                <td><input type="radio" name="r3" value="5">5%
+                      <input type="radio" name="r3" value="10">10%
+                      <input type="radio" name="r3" value="15">15%
+                </td>
+            </tr>
+                 <tr>
+                    <th> Total Bill: </th>
+                    <td><input type="number" name="bill1" value="0"></td>
+                    <td><input type="number" name="bill2" value="0"></td>
+                    <td><input type="number" name="bill3" value="0"></td>
+                </tr>
+                  <tr>
+                        <td><input type="submit" name="insert" value="Insert"></td>
+                        <td><input type="reset" name="reset" value="Clear"></td>
+                        <th>Total bill </th><td><input type="text" name="totbill" value="0"></td>
+                  </tr>
+            </table>
+        </form>
+    </body>
+</html>
